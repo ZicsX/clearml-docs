@@ -46,13 +46,13 @@ Deploying the server requires a minimum of 4 GB of memory, 8 GB is recommended.
 
 1. Create local directories for data and logs. Open PowerShell and execute the following commands:
 
-        cd c:
-        mkdir c:\opt\clearml\data
-        mkdir c:\opt\clearml\logs
+        cd c:/
+        mkdir c:\clearml\data
+        mkdir c:\clearml\logs
 
 1. Save the ClearML Server docker-compose YAML file.
  
-        curl https://raw.githubusercontent.com/allegroai/clearml-server/master/docker/docker-compose-win10.yml -o c:\opt\clearml\docker-compose-win10.yml
+        curl https://raw.githubusercontent.com/allegroai/clearml-server/master/docker/docker-compose-win10.yml -o c:\clearml\docker-compose-win10.yml
  
 1. Run `docker-compose`. In PowerShell, execute the following commands:
 
